@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, ListItem, ListItemText, Button } from '@mui/material';
+import { List, ListItem, Button } from '@mui/material';
 
 const QuestionOverview = ({ questions, visitedQuestions, attemptedQuestions, navigateToQuestion }) => {
   return (

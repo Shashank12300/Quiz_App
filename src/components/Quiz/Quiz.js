@@ -37,9 +37,7 @@ import {
   Paper,
   List,
   ListItem,
-  ListItemText,
   Container,
-  CircularProgress,
 } from '@mui/material';
 import Timer from '../Timer/Timer';
 import QuestionOverview from '../QuestionOverview/QuestionOverview';
