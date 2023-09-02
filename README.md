@@ -1,20 +1,47 @@
-# Getting Started with Create React App
+# React Quiz Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+
+This is a simple React quiz application that allows users to take a quiz, navigate through questions, and see a report of their quiz results. The application includes a timer that counts down from 30 minutes and auto-submits the quiz when the timer reaches zero.
+
+### Components
+
+The application consists of the following main components:
+
+- **Quiz**: The main component that handles quiz navigation and user interactions.
+- **Timer**: A component displaying a countdown timer at the top of the quiz page.
+- **QuestionOverview**: A panel that shows an overview of the quiz questions, indicating which questions have been visited and which have been attempted.
+
+## Application Screenshots
+
+![Welcome Page](./src/assets/image1.jpg)
+![Page 2](./src/assets/image2.jpg)
+
+## Installation
+
+To run this application locally, follow these steps:
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Shashank12300/Quiz_App
+
+
+## Assumptions
+
+- This application assumes that the user interface is primarily designed for desktop or larger screens. For mobile responsiveness, additional CSS styling and adjustments may be needed.
+
+## Challenges Faced
+
+- One challenge faced during development was managing the quiz state, including tracking visited and attempted questions, and handling the timer logic.
+- Implementing the confirmation dialog when users attempt to navigate away from a question with a selected answer required custom logic and handling user interactions.
+
 
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -24,20 +51,6 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
@@ -63,8 +76,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [Deployed Quiz App Link](https://master--tranquil-granita-92dfb5.netlify.app/)
